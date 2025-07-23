@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customers - Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="customers.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2 class="logo">E-Shop Admin</h2>
+      <ul class="nav">
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="orders.html">Orders</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="customers.html" class="active">Customers</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <h1>Customers</h1>
+        <input type="search" id="searchInput" placeholder="Search customers..." />
+      </header>
+
+      <section class="customers-section">
+        <table id="customersTable">
+          <thead>
+            <tr>
+              <th data-column="id">Customer ID &#x25B2;&#x25BC;</th>
+              <th data-column="name">Name &#x25B2;&#x25BC;</th>
+              <th data-column="email">Email &#x25B2;&#x25BC;</th>
+              <th data-column="phone">Phone &#x25B2;&#x25BC;</th>
+              <th data-column="joined">Joined Date &#x25B2;&#x25BC;</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- customer rows will be inserted here -->
+          </tbody>
+        </table>
+        <div id="noData" class="no-data" style="display:none;">No customers found.</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="customers.js"></script>
+</body>
+</html>
