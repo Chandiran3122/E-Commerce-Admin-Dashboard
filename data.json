@@ -1,0 +1,23 @@
+[
+  {
+    "id": "C001",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "+91-9876543210",
+    "registered": "2024-12-10",
+    "orders": 5,
+    "spend": "₹12,500",
+    "status": "Active"
+  },
+  {
+    "id": "C002",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "phone": "+91-9123456789",
+    "registered": "2025-01-22",
+    "orders": 3,
+    "spend": "₹6,800",
+    "status": "Inactive"
+  }
+  // Add more records
+]
